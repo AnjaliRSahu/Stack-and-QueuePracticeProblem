@@ -11,6 +11,14 @@ namespace StackPracticeProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Stack operations");
+            StackOperations stackOperations=new StackOperations();
+            Console.WriteLine();
+            stackOperations.Push(70);
+            stackOperations.Push(30);
+            stackOperations.Push(56);
+
+
+            Console.ReadLine();
         }
     }
 }
