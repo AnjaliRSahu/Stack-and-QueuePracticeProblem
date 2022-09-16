@@ -10,7 +10,6 @@ namespace StackPracticeProblem
     {
         public int data;
         public Node next;
-        private int data1;
 
         public Node(int data)
         { 

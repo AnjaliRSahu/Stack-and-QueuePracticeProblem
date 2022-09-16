@@ -16,7 +16,15 @@ namespace StackPracticeProblem
             stackOperations.Push(70);
             stackOperations.Push(30);
             stackOperations.Push(56);
+            Console.WriteLine();
 
+            //stackOperations.Display();
+            stackOperations.Peek();
+            Console.WriteLine();
+            //stackOperations.Display();
+            stackOperations.Pop();
+            Console.WriteLine("Queue operations ");
+            
 
             Console.ReadLine();
         }
